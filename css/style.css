@@ -30,6 +30,7 @@
 /* header */
 header{
     background-color: #B4D0E7;
+    position: absolute;
 }
 
 nav{
@@ -71,6 +72,31 @@ header a:visited{
     font-size: 70px;
 }
 
+.jumbo{
+    position: relative;
+    bottom: -50px;
+}
+
 .jumbo img{
     width: 800px;
+}
+
+.button-top{
+    position: relative;
+    top: 30px;
+    color: white;
+}
+
+.button-top:visited{
+    color: white;
+}
+
+.text{
+    position: relative;
+    top: 60px;
+}
+
+.anchor{
+    position: relative;
+    top: 200px;
 }
